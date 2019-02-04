@@ -1,0 +1,6 @@
+{
+  "appId": "com.valdirviana.estarcionamento",
+  "appName": "Estarcionamento",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

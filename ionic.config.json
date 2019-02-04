@@ -1,5 +1,8 @@
 {
   "name": "Estarcionamento",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
