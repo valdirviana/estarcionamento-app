@@ -2,6 +2,15 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+.welcome-card {
+  background: var(--ion-item-background, var(--ion-background-color, #fff));
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+ion-card-content p {
+  font-size: 15px;
 }

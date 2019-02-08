@@ -22,7 +22,7 @@ export class Tab1Page {
       return;
     }
 
-    const retorno = this.http.get(`http://localhost:5000/api/checkplate/${this.plate}`)
+    const retorno = this.http.get(`http://18.228.207.173:5000/api/checkplate/${this.plate}`)
       .subscribe(
         resp => {
           const infrations = JSON.parse(resp.text());

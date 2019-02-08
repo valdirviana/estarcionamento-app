@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content color='light'>
-  <ion-card color='light' class="welcome-card">
+  <ion-card class="welcome-card">
     <ion-img src="/assets/images/parking.png"></ion-img>
     <ion-card-header>
       <ion-card-subtitle><b>Estarcionamento</b></ion-card-subtitle>
@@ -16,6 +16,7 @@
     <ion-card-content>
       <p>Busque as infrações por placa de veículo, esta é uma ferramente NÃO oficial, apenas para consultas, caso
         queira verificar o site oficial da Estar Maringá clique <a href='http://venus.maringa.pr.gov.br/estar/' target="_blank">aqui</a>.</p>
+      <ion-button size="small" color="dark" [routerLink]="['/payment-information']">Informações de pagamento</ion-button>
     </ion-card-content>
   </ion-card>
   <ion-grid>
@@ -41,9 +42,9 @@
     </ion-item>
   </ion-list>
   <ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="searchInfrations()">
-      <ion-fab-button>
-        <ion-icon name="search"></ion-icon>
-      </ion-fab-button>
-    </ion-fab>
-  
+    <ion-fab-button>
+      <ion-icon name="search"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
 </ion-content>
